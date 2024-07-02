@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+.app-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+}
+
+.number-management {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.number-generator, .number-deletion {
+  margin-right: 20px;
+}
+
+.number-generator input, .number-deletion input, .number-generator button, .number-deletion button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.number-generator button, .number-deletion button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.number-generator button:hover, .number-deletion button:hover {
+  background-color: #0056b3;
+}
+
+.number-list {
+  margin-top: 20px;
+}
+
+.number-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.number-list th, .number-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.number-list th {
+  background-color: #007bff;
+  color: white;
+}
+
+.number-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
